@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font-awsome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@800&family=Poppins:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>EDIE HOMEPAGE</title>
+  </head>
+  <body>
+    <header id="header" class="header">
+      <nav class="nav">
+        <a class="nav__logo" href="#">Edie</a>
+        <div id="nav-menu" class="nav__menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a class="nav__link" href="#home">Home</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#service">Services</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#work">Our Works</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#client">Clients</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#contact">Contact</a>
+            </li>
+          </ul>
+
+          <!-- <img
+            id="menu-close"
+            class="nav__icon"
+            src="./images/close.svg"
+            alt=""
+          /> -->
+        </div>
+        <img
+          id="menu-toggle"
+          class="nav__icon"
+          src="./images/menu.svg"
+          alt=""
+        />
+      </nav>
+    </header>
+
+    <main class="main">
+      <section class="banner">
+        <a class="banner__link" href="#">Unhappy with your website?</a>
+        <h1 class="banner__title title1">
+          We create beautiful and fast web services
+        </h1>
+        <img
+          class="banner__image"
+          src="./images/heroImage.jpg"
+          alt="hero image"
+        />
+        <h1 class="banner__title title2">Story, emotion and purpose</h1>
+        <p class="banner__content">
+          We help transform your ideas into real world applications that will
+          outperform your toughest competition and help you achieve your
+          strategic goals in short period of time.
+        </p>
+
+        <div class="banner__form">
+          <label class="email__label" for="footer__email"
+            >Want us to contact you?</label
+          >
+          <br />
+          <div class="input-form">
+            <input
+              name="banner__input"
+              type="email"
+              class="banner__input"
+              placeholder="Email"
+            />
+            <button class="btn btn--join">Join</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="services">
+        <h2 class="services__title">We offer high demand services</h2>
+        <ul class="service__list">
+          <li class="service__item">
+            <div class="service__img--wrapper bgblue">
+              <img class="service__img" src="./images/ui-ux.svg" alt="ui-ux" />
+            </div>
+            <h3>UI/UX Design</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo
+              repellat vel deleniti deserunt voluptatem, nisi incidunt dolorum
+              nihil aperiam ex?
+            </p>
+            <button class="btn">Get started</button>
+          </li>
+          <li class="service__item">
+            <div class="service__img--wrapper bggreen">
+              <img
+                class="service__img"
+                src="./images/code.svg"
+                alt="frontend"
+              />
+            </div>
+          </li>
+          <li class="service__item">
+            <div class="service__img--wrapper bgred">
+              <img
+                class="service__img"
+                src="./images/backend.svg"
+                alt="backend"
+              />
+            </div>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <!-- ========== FOOTER ============= -->
+    <footer class="footer">
+      <nav class="footer__nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a class="nav__link" href="#home">Home</a></li>
+          <li class="nav__item">
+            <a class="nav__link" href="#services">Services</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#works">Our Works</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#clients">Clients</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <section class="footer__logo--list">
+        <a href="#" class="footer__logo">Edie</a>
+        <ul class="footer__socials">
+          <img
+            class="social__item"
+            src="./images/instagram.svg"
+            alt="instagram"
+          />
+          <img
+            class="social__item"
+            src="./images/linkedin.svg"
+            alt="linkedin"
+          />
+          <img class="social__item" src="./images/twitter.svg" alt="twitter" />
+        </ul>
+      </section>
+      <div class="footer__form">
+        <label class="email__label" for="footer__email"
+          >Want us to contact you?</label
+        >
+        <br />
+        <div class="input-form">
+          <input
+            name="footer__email"
+            type="email"
+            class="footer__email"
+            placeholder="Email"
+          />
+          <button class="btn btn--join">Join</button>
+        </div>
+      </div>
+    </footer>
+    <!-- script app.js -->
+    <script src="app.js"></script>
+  </body>
+</html>
